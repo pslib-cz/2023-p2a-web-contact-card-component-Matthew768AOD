@@ -6,3 +6,14 @@
     color: black;
     background-color: black;
 }
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./icomoon.woff') format('woff'),
+          /* ... other font formats ... */
+}
+.icon {
+    font-family: icomoon, fantasy;
+    
+    line-height: 1;
+    letter-spacing: normal;
+  }
