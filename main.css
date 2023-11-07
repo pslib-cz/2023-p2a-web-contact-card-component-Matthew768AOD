@@ -1,19 +1,40 @@
-.AAAAAAAAAAAAAAAAAAAAAAAA {
-    color:white;
-    background-color: white;
-}
-.a:hover{
-    color: black;
-    background-color: black;
-}
-@font-face {
-    font-family: 'icomoon';
-    src:  url('./icomoon.woff') format('woff'),
-          /* ... other font formats ... */
-}
 .icon {
     font-family: icomoon, fantasy;
     
     line-height: 1;
     letter-spacing: normal;
-  }
+}
+.thestuff {
+    display: flex;
+}
+.background {
+    background-image: url(./pictures/bg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card {
+    width: 240px;
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
+    margin-top: 5rem;
+    display: block;
+}
+.card--shadow {
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.361);
+}
+.card__header {
+    border-bottom: solid black 1px;
+}
+.card__header__text {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.card__main {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.card__main__text {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
